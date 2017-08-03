@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/WHITE"
+    android:paddingTop="16dp"
+    >
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/searchMusicEditTextFeild"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:id="@+id/searchMusicEditText"
+            android:textSize="16sp"
+            android:hint="@string/searchmusic"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchMusicEditTextFeild"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/musicList">
+
+    </ListView>
+    <ProgressBar android:id="@+id/search_progress" style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/searchMusicEditTextFeild"/>
+</RelativeLayout>

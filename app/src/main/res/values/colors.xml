@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="Rhino">#404959</color>
+    <color name="Manatee">#878D9A</color>
+    <color name="colorOfArtistName">#878d9a</color>
+    <color name="BLACK">#000000</color>
+    <color name="accentcolor">#81D4FA</color>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="searchmusic">Search for your favourite music artist</string>
+</resources>
